@@ -7,7 +7,7 @@ This tool allows you to view the format changes that Black would make on a given
 Build the image:
 
 ```
-docker build -t black_gallery .
+docker build -t black_gallery .. -f Dockerfile
 
 ## Usage
 
